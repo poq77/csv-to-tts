@@ -7,4 +7,4 @@ class DicatationEntry:
     term: str
     sentence: str
     audio_term_path: Path
-    aduio_sentence_path: Path
+    audio_sentence_path: Path

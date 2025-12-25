@@ -5,6 +5,6 @@ from pathlib import Path
 @dataclass
 class DicatationEntry:
     term: str
-    text: str
-    audio_text_path: Path
-    aduio_term_path: Path
+    sentence: str
+    audio_term_path: Path
+    aduio_sentence_path: Path

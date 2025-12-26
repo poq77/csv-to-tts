@@ -8,7 +8,7 @@ def generate_audio(text: str, path: str, speed: float=1, voice: str='af_heart') 
     pipeline = KPipeline(lang_code='a')
     generator = pipeline(text, voice=voice, speed=speed)
     for i, (gs, ps, audio) in enumerate(generator):
-        sf.write(f'{path}.wav', audio, 24000)
+        sf.write(f'{path}', audio, 24000)
         break # current support only one paragraph
 
 def generate_from_json(input_json:str):

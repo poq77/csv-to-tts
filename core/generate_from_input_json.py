@@ -54,7 +54,10 @@ def generate_from_json(input_json:str):
             path_str = audio_path / f"{filename}.wav"
             print(path_str)
             generate_audio(text, path=path_str, speed=manifest["speed"], voice=manifest["voice"])
-            
+            entry[k]["audio"] = str(path_str.absolute())
     
+    with open(f"./database/{manifest["name"]}.json", "w") as f:
+        json.dump(manifest, f)
+
 if __name__ == "__main__":
     generate_from_json("")

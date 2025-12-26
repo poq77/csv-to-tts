@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "data": [
+        {
+            "word": {
+                "text": "winter"
+            },
+            "sentence": {
+                "text": "The winter is coming."
+            }
+        },
+        {
+            "word": {
+                "text": "fall"
+            },
+            "sentence": {
+                "text": "Leaves fell from the tree."
+            }
+        }
+    ]
+}

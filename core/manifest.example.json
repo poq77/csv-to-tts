@@ -1,0 +1,27 @@
+{
+    "name": "example",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "data": [
+        {
+            "word": {
+                "text": "winter",
+                "audio": "./abc.mp3"
+            },
+            "sentence": {
+                "text": "The winter is coming.",
+                "audio": "./def.mp3"
+            }
+        },
+        {
+            "word": {
+                "text": "fall",
+                "audio": "./ghi.mp3"
+            },
+            "sentence": {
+                "text": "Leaves fell from the tree.",
+                "audio": "./klm.mp3"
+            }
+        }
+    ]
+}

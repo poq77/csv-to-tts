@@ -1,1 +1,20 @@
 database/
+# local models
+*.gguf
+/models/
+/model/
+/weights/
+
+# generated audio
+*.wav
+*.mp3
+*.flac
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# lock / cache (按你们项目习惯决定留不留)
+# uv.lock
